@@ -1,4 +1,8 @@
-﻿namespace SortingUtilits
+﻿// <copyright file="IComparer.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+namespace SortingUtilits
 {
     /// <summary>
     /// Provide comparer for compare number in Array.

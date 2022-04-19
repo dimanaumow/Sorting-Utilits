@@ -4,5 +4,30 @@
         <name>SortingUtilits</name>
     </assembly>
     <members>
+        <member name="T:SortingUtilits.ArrayExtention">
+            <summary>
+            Provide method for sorting array.
+            </summary>
+        </member>
+        <member name="M:SortingUtilits.ArrayExtention.BubbleSort(System.Int32[],SortingUtilits.IComparer)">
+            <summary>
+            Sort array using Bubble Sort O(n^2) time complexity, O(1) memory.
+            </summary>
+            <param name="array">Input array.</param>
+            <param name="comparer">Rule for comparation.</param>
+        </member>
+        <member name="T:SortingUtilits.IComparer">
+            <summary>
+            Provide comparer for compare number in Array.
+            </summary>
+        </member>
+        <member name="M:SortingUtilits.IComparer.Compare(System.Int32,System.Int32)">
+            <summary>
+            Compare elements.
+            </summary>
+            <param name="left">first element.</param>
+            <param name="right">second element.</param>
+            <returns>Number 0 or 1 or -1.</returns>
+        </member>
     </members>
 </doc>
