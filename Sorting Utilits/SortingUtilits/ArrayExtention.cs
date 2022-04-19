@@ -3,7 +3,7 @@
 namespace SortingUtilits
 {
     public class ArrayExtention
-    {   
+    {
 
     }
 }
