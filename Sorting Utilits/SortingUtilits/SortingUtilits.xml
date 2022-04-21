@@ -13,8 +13,27 @@
             <summary>
             Sort array using Bubble Sort O(n^2) time complexity, O(1) memory.
             </summary>
-            <param name="array">Input array.</param>
+            <param name="array">Given array.</param>
             <param name="comparer">Rule for comparation.</param>
+        </member>
+        <member name="M:SortingUtilits.ArrayExtention.BubbleSort(System.Int32[])">
+            <summary>
+            Sort array using BubbleSort and defolt comparation elements.
+            </summary>
+            <param name="array">Given array.</param>
+        </member>
+        <member name="M:SortingUtilits.ArrayExtention.MergeSort(System.Int32[],SortingUtilits.IComparer)">
+            <summary>
+            Sort array using MergeSort.
+            </summary>
+            <param name="array">Given array.</param>
+            <param name="comparer">Rule for comparation.</param>
+        </member>
+        <member name="M:SortingUtilits.ArrayExtention.MergeSort(System.Int32[])">
+            <summary>
+            Sorting array using MergeSort and defolt comparation.
+            </summary>
+            <param name="array">Given array.</param>
         </member>
         <member name="T:SortingUtilits.IComparer">
             <summary>
