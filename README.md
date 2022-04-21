@@ -4,7 +4,7 @@ What I trained in this project
 
 1. Simply sorting algorithms (Bubble Sort and Merge Sort)
 
-2. Unit testing in c#(NUNIT)  a. Standart writing tests in .Net projects  b. Work with exception in NUNIT 
+2. Unit testing in c#(NUNIT) <br/> a. Standart writing tests in .Net projects  b. Work with exception in NUNIT 
 
 3. Strategy Pattern  a. How realize strategy in c# use interfacec
 
