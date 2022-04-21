@@ -22,6 +22,9 @@ namespace ComparerImplementations
             {
                 throw new ArgumentException($"{nameof(symbol)} is not a valid symbol in this number system.");
             }
+
+            this.p = p;
+            this.symbol = symbol;
         }
 
         public int Compare(int left, int right)
