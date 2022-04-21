@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingUtilits", "SortingUtilits\SortingUtilits.csproj", "{A1AC4CE2-FEEA-4FED-B632-52B5715F4E4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingUtilits", "SortingUtilits\SortingUtilits.csproj", "{A1AC4CE2-FEEA-4FED-B632-52B5715F4E4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparerImplementations", "ComparerImplementations\ComparerImplementations.csproj", "{6B91CB47-8495-48B8-94DA-710A02996A38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComparerImplementations", "ComparerImplementations\ComparerImplementations.csproj", "{6B91CB47-8495-48B8-94DA-710A02996A38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparerImplemetations_Test", "ComparerImplemetations_Test\ComparerImplemetations_Test.csproj", "{A2FA80F0-3E38-4903-90A6-339AB98A78E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6B91CB47-8495-48B8-94DA-710A02996A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B91CB47-8495-48B8-94DA-710A02996A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B91CB47-8495-48B8-94DA-710A02996A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2FA80F0-3E38-4903-90A6-339AB98A78E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FA80F0-3E38-4903-90A6-339AB98A78E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FA80F0-3E38-4903-90A6-339AB98A78E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FA80F0-3E38-4903-90A6-339AB98A78E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
